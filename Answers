@@ -1,0 +1,8 @@
+#Meredith Silvernail - Java I - Lab 2 - Step 2 Questions:
+##Exercise 5: Create a repo on GitHub that contains a markdown file that answers these questions:
+1.  How do you see the files changed within each commit from git log?
+  *$ git log --stat (lists most recent commit first, shows list of files in each commit and +/- signs for additions or deletions for each)
+2. How do you see the contents of what changed within each file from the git log?
+  *$ git log --patch (added in green, removed in red)
+3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within merge conflict)
+  *The current branch (last commit on the branch that is currently checked out). It will change to a new branch if you change switch branches.
